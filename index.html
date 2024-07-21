@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+</html>
+
+<head>
+    <title>UPI Transaction Fraud Detection</title>
+</head>
+
+<body>
+    <br><br><br><br><br><br>
+    <h1>
+        <center><b>Online Payment Fraud Detection</b></center>
+    </h1><br><br><br><br>
+    <form action="/check_fraud" method="POST">
+        <center><label>
+                <h2>Enter payment mode:</h2>
+                <select>
+                    <option value="">--Please choose an option--</option>
+                    <option>Online Transfer</option>
+                    <option>UPI Transaction</option>
+                    <option>Credit/Debit</option>>
+                </select>
+            </label></center> <br><br>
+        <label for="txn_id">
+            <center>
+                <h2>Enter Transaction ID:
+        </label>
+        <input type="text" name="txn_id"><br><br></center>
+        </h2>
+        <label for="amount">
+            <center>
+                <h2>Enter Transaction Amount:
+        </label>
+        <input type="text" name="amount"><br><br></center>
+        </h2>
+        <center><input type="submit" value="Check Fraud"></center>
+    </form>
+</body>
+
+</html>
